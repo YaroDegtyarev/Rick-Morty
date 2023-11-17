@@ -11,6 +11,16 @@
 		5D50A5812B07C1AE003086B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5802B07C1AE003086B7 /* ContentView.swift */; };
 		5D50A5832B07C1B0003086B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D50A5822B07C1B0003086B7 /* Assets.xcassets */; };
 		5D50A5862B07C1B0003086B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D50A5852B07C1B0003086B7 /* Preview Assets.xcassets */; };
+		5D50A5992B07C328003086B7 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5982B07C328003086B7 /* SettingsRowView.swift */; };
+		5D50A59B2B07C344003086B7 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A59A2B07C344003086B7 /* InputView.swift */; };
+		5D50A59D2B07C368003086B7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A59C2B07C368003086B7 /* RegistrationView.swift */; };
+		5D50A59F2B07C382003086B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A59E2B07C382003086B7 /* LoginView.swift */; };
+		5D50A5A12B07C3AB003086B7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A02B07C3AB003086B7 /* AuthViewModel.swift */; };
+		5D50A5A32B07C3C7003086B7 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A22B07C3C7003086B7 /* KeychainManager.swift */; };
+		5D50A5A52B07C3E2003086B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A42B07C3E1003086B7 /* MainView.swift */; };
+		5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A62B07C406003086B7 /* ProfileView.swift */; };
+		5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A82B07C430003086B7 /* TabBarView.swift */; };
+		5D50A5AB2B07C445003086B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5AA2B07C445003086B7 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		5D50A5802B07C1AE003086B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D50A5822B07C1B0003086B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D50A5852B07C1B0003086B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D50A5982B07C328003086B7 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		5D50A59A2B07C344003086B7 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		5D50A59C2B07C368003086B7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		5D50A59E2B07C382003086B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5D50A5A02B07C3AB003086B7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5D50A5A22B07C3C7003086B7 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		5D50A5A42B07C3E1003086B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5D50A5A62B07C406003086B7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5D50A5A82B07C430003086B7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5D50A5AA2B07C445003086B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +71,11 @@
 		5D50A57D2B07C1AE003086B7 /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
-				5D50A57E2B07C1AE003086B7 /* Rick_MortyApp.swift */,
-				5D50A5802B07C1AE003086B7 /* ContentView.swift */,
+				5D50A58C2B07C1BA003086B7 /* App */,
+				5D50A58D2B07C1C7003086B7 /* Components */,
 				5D50A5822B07C1B0003086B7 /* Assets.xcassets */,
+				5D50A58E2B07C1E1003086B7 /* Core */,
+				5D50A5922B07C248003086B7 /* Model */,
 				5D50A5842B07C1B0003086B7 /* Preview Content */,
 			);
 			path = "Rick&Morty";
@@ -65,6 +87,86 @@
 				5D50A5852B07C1B0003086B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D50A58C2B07C1BA003086B7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A57E2B07C1AE003086B7 /* Rick_MortyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D50A58D2B07C1C7003086B7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5982B07C328003086B7 /* SettingsRowView.swift */,
+				5D50A59A2B07C344003086B7 /* InputView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5D50A58E2B07C1E1003086B7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A58F2B07C1E5003086B7 /* Authentication */,
+				5D50A5902B07C1EF003086B7 /* Profile and MainView */,
+				5D50A5912B07C213003086B7 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5D50A58F2B07C1E5003086B7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5952B07C2A7003086B7 /* View */,
+				5D50A5942B07C29F003086B7 /* View Model */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5D50A5902B07C1EF003086B7 /* Profile and MainView */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5A42B07C3E1003086B7 /* MainView.swift */,
+				5D50A5A62B07C406003086B7 /* ProfileView.swift */,
+			);
+			path = "Profile and MainView";
+			sourceTree = "<group>";
+		};
+		5D50A5912B07C213003086B7 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5802B07C1AE003086B7 /* ContentView.swift */,
+				5D50A5A82B07C430003086B7 /* TabBarView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5D50A5922B07C248003086B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5AA2B07C445003086B7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D50A5942B07C29F003086B7 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5A02B07C3AB003086B7 /* AuthViewModel.swift */,
+				5D50A5A22B07C3C7003086B7 /* KeychainManager.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5D50A5952B07C2A7003086B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A59C2B07C368003086B7 /* RegistrationView.swift */,
+				5D50A59E2B07C382003086B7 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D50A59F2B07C382003086B7 /* LoginView.swift in Sources */,
+				5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */,
+				5D50A5A52B07C3E2003086B7 /* MainView.swift in Sources */,
+				5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */,
 				5D50A5812B07C1AE003086B7 /* ContentView.swift in Sources */,
+				5D50A59B2B07C344003086B7 /* InputView.swift in Sources */,
+				5D50A5A12B07C3AB003086B7 /* AuthViewModel.swift in Sources */,
 				5D50A57F2B07C1AE003086B7 /* Rick_MortyApp.swift in Sources */,
+				5D50A5AB2B07C445003086B7 /* User.swift in Sources */,
+				5D50A5992B07C328003086B7 /* SettingsRowView.swift in Sources */,
+				5D50A59D2B07C368003086B7 /* RegistrationView.swift in Sources */,
+				5D50A5A32B07C3C7003086B7 /* KeychainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
