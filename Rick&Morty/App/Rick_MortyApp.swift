@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 @main
 struct Rick_MortyApp: App {
     @StateObject var viewModel = AuthViewModel()

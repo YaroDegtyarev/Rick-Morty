@@ -8,15 +8,25 @@
 import SwiftUI
 
 struct MainView: View {
+    @State var person: PersonResults.Person?
     var body: some View {
-        VStack {
-            Text("You are in!")
+        HStack {
+            VStack(alignment: .leading) {
+                Text("\(person?.name ?? "Имя")")
+                    .font(.title)
+                    .bold()
+                Text("Пол: \(person?.gender ?? "Не указан")")
+                Text("Статус: \(person?.status ?? "Не известен")")
+            }
+            
         }
+       
         .onAppear {
             NetworkServiceWithCompletions.shared.fetchData { result in
                 switch result {
                 case .success(let personsData):
-                    print("Data: \(personsData.results[1].name)")
+                  let person = personsData.results[0]
+                    self.person = person
                 case .failure(let failure):
                     print(failure.localizedDescription)
                 }
