@@ -21,6 +21,8 @@
 		5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A62B07C406003086B7 /* ProfileView.swift */; };
 		5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A82B07C430003086B7 /* TabBarView.swift */; };
 		5D50A5AB2B07C445003086B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5AA2B07C445003086B7 /* User.swift */; };
+		5D50A5AF2B08721D003086B7 /* NetworkServiceWithCompletions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */; };
+		5D50A5B12B087AC6003086B7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5B02B087AC6003086B7 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		5D50A5A62B07C406003086B7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5D50A5A82B07C430003086B7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		5D50A5AA2B07C445003086B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceWithCompletions.swift; sourceTree = "<group>"; };
+		5D50A5B02B087AC6003086B7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				5D50A5822B07C1B0003086B7 /* Assets.xcassets */,
 				5D50A58E2B07C1E1003086B7 /* Core */,
 				5D50A5922B07C248003086B7 /* Model */,
+				5D50A5AC2B0871C2003086B7 /* Networking */,
 				5D50A5842B07C1B0003086B7 /* Preview Content */,
 			);
 			path = "Rick&Morty";
@@ -169,6 +174,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5D50A5AC2B0871C2003086B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */,
+				5D50A5B02B087AC6003086B7 /* Person.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D50A5AF2B08721D003086B7 /* NetworkServiceWithCompletions.swift in Sources */,
 				5D50A59F2B07C382003086B7 /* LoginView.swift in Sources */,
 				5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */,
 				5D50A5A52B07C3E2003086B7 /* MainView.swift in Sources */,
+				5D50A5B12B087AC6003086B7 /* Person.swift in Sources */,
 				5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */,
 				5D50A5812B07C1AE003086B7 /* ContentView.swift in Sources */,
 				5D50A59B2B07C344003086B7 /* InputView.swift in Sources */,

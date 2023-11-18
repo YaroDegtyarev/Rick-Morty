@@ -9,7 +9,19 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("You are in!")
+        VStack {
+            Text("You are in!")
+        }
+        .onAppear {
+            NetworkServiceWithCompletions.shared.fetchData { result in
+                switch result {
+                case .success(let personsData):
+                    print("Data: \(personsData.results[1].name)")
+                case .failure(let failure):
+                    print(failure.localizedDescription)
+                }
+            }
+        }
     }
 }
 
