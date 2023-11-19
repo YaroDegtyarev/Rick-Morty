@@ -30,13 +30,13 @@ struct PersonListView: View {
                             }
                             VStack(alignment: .leading) {
                                 Text("Name: \(person.name)")
-                                    .font(.system(size: 14))
+                                    .font(.system(size: 13))
                                     .fontWeight(.semibold)
                                 Text("Gender: \(person.gender)")
-                                    .font(.system(size: 12))
+                                    .font(.system(size: 13))
                                     .fontWeight(.semibold)
                                 Text("Status: \(person.status)")
-                                    .font(.system(size: 14))
+                                    .font(.system(size: 13))
                                     .fontWeight(.semibold)
                             }
                         }
