@@ -13,7 +13,7 @@ struct TabBarView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
              TabView(selection: self.$currentTab) {
-                 MainView().tag(0)
+                 PersonListView().tag(0)
                  ProfileView().tag(1)
              }
              .tabViewStyle(.page(indexDisplayMode: .never))

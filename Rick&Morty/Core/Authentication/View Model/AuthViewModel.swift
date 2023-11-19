@@ -15,12 +15,13 @@ class AuthViewModel: ObservableObject {
 
     @Published var currentUser: User?
     @Published var validatePassword: Bool
-    @Published var succsessSignUp: Bool
+    @Published var successSignUp: Bool
+
 
     
     init() {
         self.validatePassword = false
-        self.succsessSignUp = false
+        self.successSignUp = false
         self.currentUser = nil
     }
    
@@ -54,8 +55,7 @@ class AuthViewModel: ObservableObject {
             print(error)
         }
                 UserDefaults.standard.set(fullname, forKey: email)
-        succsessSignUp = true
-        
+          
     }
     
     func signOut() {

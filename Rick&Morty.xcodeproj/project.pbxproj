@@ -17,12 +17,13 @@
 		5D50A59F2B07C382003086B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A59E2B07C382003086B7 /* LoginView.swift */; };
 		5D50A5A12B07C3AB003086B7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A02B07C3AB003086B7 /* AuthViewModel.swift */; };
 		5D50A5A32B07C3C7003086B7 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A22B07C3C7003086B7 /* KeychainManager.swift */; };
-		5D50A5A52B07C3E2003086B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A42B07C3E1003086B7 /* MainView.swift */; };
+		5D50A5A52B07C3E2003086B7 /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A42B07C3E1003086B7 /* PersonListView.swift */; };
 		5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A62B07C406003086B7 /* ProfileView.swift */; };
 		5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5A82B07C430003086B7 /* TabBarView.swift */; };
 		5D50A5AB2B07C445003086B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5AA2B07C445003086B7 /* User.swift */; };
-		5D50A5AF2B08721D003086B7 /* NetworkServiceWithCompletions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */; };
 		5D50A5B12B087AC6003086B7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5B02B087AC6003086B7 /* Person.swift */; };
+		5D50A5F52B0A6048003086B7 /* NetWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5F42B0A6048003086B7 /* NetWorkModel.swift */; };
+		5D50A5F92B0A70FD003086B7 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50A5F82B0A70FD003086B7 /* EpisodesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,12 +38,13 @@
 		5D50A59E2B07C382003086B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5D50A5A02B07C3AB003086B7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		5D50A5A22B07C3C7003086B7 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
-		5D50A5A42B07C3E1003086B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5D50A5A42B07C3E1003086B7 /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
 		5D50A5A62B07C406003086B7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5D50A5A82B07C430003086B7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		5D50A5AA2B07C445003086B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceWithCompletions.swift; sourceTree = "<group>"; };
 		5D50A5B02B087AC6003086B7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5D50A5F42B0A6048003086B7 /* NetWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModel.swift; sourceTree = "<group>"; };
+		5D50A5F82B0A70FD003086B7 /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +135,8 @@
 		5D50A5902B07C1EF003086B7 /* Profile and MainView */ = {
 			isa = PBXGroup;
 			children = (
-				5D50A5A42B07C3E1003086B7 /* MainView.swift */,
+				5D50A5A42B07C3E1003086B7 /* PersonListView.swift */,
+				5D50A5F82B0A70FD003086B7 /* EpisodesView.swift */,
 				5D50A5A62B07C406003086B7 /* ProfileView.swift */,
 			);
 			path = "Profile and MainView";
@@ -152,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5D50A5AA2B07C445003086B7 /* User.swift */,
+				5D50A5B02B087AC6003086B7 /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,8 +181,7 @@
 		5D50A5AC2B0871C2003086B7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				5D50A5AE2B08721D003086B7 /* NetworkServiceWithCompletions.swift */,
-				5D50A5B02B087AC6003086B7 /* Person.swift */,
+				5D50A5F42B0A6048003086B7 /* NetWorkModel.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -253,17 +256,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D50A5AF2B08721D003086B7 /* NetworkServiceWithCompletions.swift in Sources */,
 				5D50A59F2B07C382003086B7 /* LoginView.swift in Sources */,
 				5D50A5A92B07C430003086B7 /* TabBarView.swift in Sources */,
-				5D50A5A52B07C3E2003086B7 /* MainView.swift in Sources */,
+				5D50A5A52B07C3E2003086B7 /* PersonListView.swift in Sources */,
 				5D50A5B12B087AC6003086B7 /* Person.swift in Sources */,
 				5D50A5A72B07C406003086B7 /* ProfileView.swift in Sources */,
 				5D50A5812B07C1AE003086B7 /* ContentView.swift in Sources */,
 				5D50A59B2B07C344003086B7 /* InputView.swift in Sources */,
 				5D50A5A12B07C3AB003086B7 /* AuthViewModel.swift in Sources */,
 				5D50A57F2B07C1AE003086B7 /* Rick_MortyApp.swift in Sources */,
+				5D50A5F92B0A70FD003086B7 /* EpisodesView.swift in Sources */,
 				5D50A5AB2B07C445003086B7 /* User.swift in Sources */,
+				5D50A5F52B0A6048003086B7 /* NetWorkModel.swift in Sources */,
 				5D50A5992B07C328003086B7 /* SettingsRowView.swift in Sources */,
 				5D50A59D2B07C368003086B7 /* RegistrationView.swift in Sources */,
 				5D50A5A32B07C3C7003086B7 /* KeychainManager.swift in Sources */,
